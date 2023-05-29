@@ -1,10 +1,10 @@
-## server
+## server 46.101.199.136
 ```bash
 openssl genrsa -out server.key 2048
 openssl req -new -x509 -sha256 -key server.key -out server.crt -days 365
 ```
 
-## client
+## client 209.38.227.80
 ```bash
 openssl genrsa -out client.key 2048
 openssl req -new -x509 -sha256 -key client.key -out client.crt -days 365
