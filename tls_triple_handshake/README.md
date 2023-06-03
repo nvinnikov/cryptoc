@@ -37,3 +37,22 @@ openssl req -new -x509 -sha256 -key client.key -out client.crt -days 365
 
 Затем мы устанавливаем SSL соединение с сервером, используя ssl_context.wrap_socket(), и отправляем данные на сервер.
 ```
+
+## Пример использования
+
+```bash
+tcp.flags.ack==0
+tls
+```
+
+![image](https://github.com/nvinnikov/cryptographic_protocols/assets/88853518/fdca0d0f-c1f8-484c-a00a-01fb13733479)
+
+![image](https://github.com/nvinnikov/cryptographic_protocols/assets/88853518/d4295d3b-774a-49bc-a1aa-f9dda1a06a05)
+
+![image](https://github.com/nvinnikov/cryptographic_protocols/assets/88853518/936dce78-9847-4461-8c3f-4a09a591f031)
+
+![image](https://github.com/nvinnikov/cryptographic_protocols/assets/88853518/f45a1447-b8c9-4490-91cc-21106382c534)
+
+![image](https://github.com/nvinnikov/cryptographic_protocols/assets/88853518/68b50841-d436-4f7f-9a86-f90cb37d684f)
+
+
